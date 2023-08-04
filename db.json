@@ -459,7 +459,34 @@
             "filesAwaitingUpload": 3
           }
         ],
-        "users": [
-           ]
+        "users": [       {
+"firstName": "anji",
+"lastName": "k",
+"email": "an@gmail.com",
+"password": "123456",
+"id": 1
+},
+{
+"firstName": "anji",
+"lastName": "k",
+"email": "anji@gmail.com",
+"password": "123456",
+"id": 2
+},
+{
+"firstName": "Admin",
+"lastName": "Admin",
+"email": "admin@gmail.com",
+"password": "admin",
+"id": 3
+},
+{
+"firstName": "anji",
+"lastName": "k",
+"email": "and@gmail.com",
+"password": "123456",
+"id": 4
+}
+        ]
   }
   
