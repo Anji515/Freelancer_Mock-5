@@ -16,7 +16,7 @@
       "pulse": "72 bpm",
       "spo2": "95%",
       "sugar": "130",
-      "avatarUrl": "https://i.imgur.com/1.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/12.jpg",
       "recentDiagnosis": "Common cold",
       "lastVisits": ["2023-02-01", "2023-03-15"],
       "lastVisitedDoctor": "Dr. Anderson"
@@ -38,7 +38,7 @@
       "pulse": "80 bpm",
       "spo2": "98%",
       "sugar": "110",
-      "avatarUrl": "https://i.imgur.com/2.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/76.jpg",
       "recentDiagnosis": "Allergies",
       "lastVisits": ["2023-03-01", "2023-03-20"],
       "lastVisitedDoctor": "Dr. Patel"
@@ -60,7 +60,7 @@
       "pulse": "65 bpm",
       "spo2": "97%",
       "sugar": "95",
-      "avatarUrl": "https://i.imgur.com/3.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/37.jpg",
       "recentDiagnosis": "Hypertension",
       "lastVisits": ["2023-03-10", "2023-03-25"],
       "lastVisitedDoctor": "Dr. Turner"
@@ -82,7 +82,7 @@
       "pulse": "70 bpm",
       "spo2": "96%",
       "sugar": "120",
-      "avatarUrl": "https://i.imgur.com/4.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/20.jpg",
       "recentDiagnosis": "Eczema",
       "lastVisits": ["2023-04-10"],
       "lastVisitedDoctor": "Dr. Martinez"
@@ -104,7 +104,7 @@
       "pulse": "68 bpm",
       "spo2": "98%",
       "sugar": "100",
-      "avatarUrl": "https://i.imgur.com/5.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg",
       "recentDiagnosis": "Back Pain",
       "lastVisits": ["2023-05-01", "2023-05-15"],
       "lastVisitedDoctor": "Dr. Ramirez"
@@ -126,7 +126,7 @@
       "pulse": "75 bpm",
       "spo2": "96%",
       "sugar": "90",
-      "avatarUrl": "https://i.imgur.com/6.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/49.jpg",
       "recentDiagnosis": "Pregnancy",
       "lastVisits": ["2023-06-10"],
       "lastVisitedDoctor": "Dr. Lee"
@@ -148,7 +148,7 @@
       "pulse": "70 bpm",
       "spo2": "97%",
       "sugar": "105",
-      "avatarUrl": "https://i.imgur.com/7.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/60.jpg",
       "recentDiagnosis": "Migraine",
       "lastVisits": ["2023-07-15", "2023-08-01"],
       "lastVisitedDoctor": "Dr. Garcia"
@@ -170,7 +170,7 @@
       "pulse": "75 bpm",
       "spo2": "98%",
       "sugar": "95",
-      "avatarUrl": "https://i.imgur.com/8.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/7.jpg",
       "recentDiagnosis": "Cataract",
       "lastVisits": ["2023-08-01"],
       "lastVisitedDoctor": "Dr. Wright"
@@ -192,7 +192,7 @@
       "pulse": "68 bpm",
       "spo2": "97%",
       "sugar": "100",
-      "avatarUrl": "https://i.imgur.com/9.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/43.jpg",
       "recentDiagnosis": "Depression",
       "lastVisits": ["2023-09-15", "2023-10-01"],
       "lastVisitedDoctor": "Dr. Hall"
@@ -214,7 +214,7 @@
       "pulse": "70 bpm",
       "spo2": "98%",
       "sugar": "90",
-      "avatarUrl": "https://i.imgur.com/10.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/89.jpg",
       "recentDiagnosis": "Cavity",
       "lastVisits": ["2023-10-01"],
       "lastVisitedDoctor": "Dr. Young"
@@ -236,7 +236,7 @@
       "pulse": "75 bpm",
       "spo2": "96%",
       "sugar": "95",
-      "avatarUrl": "https://i.imgur.com/11.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/70.jpg",
       "recentDiagnosis": "Arthritis",
       "lastVisits": ["2023-11-15", "2023-12-01"],
       "lastVisitedDoctor": "Dr. Turner"
@@ -258,13 +258,13 @@
       "pulse": "68 bpm",
       "spo2": "98%",
       "sugar": "85",
-      "avatarUrl": "https://i.imgur.com/12.jpg",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/42.jpg",
       "recentDiagnosis": "Thyroid Disorder",
       "lastVisits": ["2023-12-01"],
       "lastVisitedDoctor": "Dr. Turner"
     }] 
   ,
-  "doctors": [
+   "doctors": [
     {
       "id": 1,
       "name": "Dr. John Smith",
@@ -279,7 +279,8 @@
       },
       "faq": "What is the best way to maintain a healthy heart?",
       "noOfConsultations": 150,
-      "experience": 15
+      "experience": 15,
+      "avatarUrl": "https://randomuser.me/api/portraits/men/62.jpg"
     },
     {
       "id": 2,
@@ -295,7 +296,8 @@
       },
       "faq": "When should my child have their first checkup?",
       "noOfConsultations": 100,
-      "experience": 12
+      "experience": 12,
+      "avatarUrl": "https://randomuser.me/api/portraits/women/86.jpg"
     },
     {
       "id": 3,
@@ -311,7 +313,8 @@
       },
       "faq": "What are common causes of joint pain?",
       "noOfConsultations": 120,
-      "experience": 14
+      "experience": 14,
+      "avatarUrl": "https://randomuser.me/api/portraits/women/52.jpg"
     },
     {
       "id": 4,
@@ -327,7 +330,8 @@
       },
       "faq": "How can I protect my skin from sun damage?",
       "noOfConsultations": 90,
-      "experience": 10
+      "experience": 10,
+      "avatarUrl": "https://randomuser.me/api/portraits/women/33.jpg"
     },
     {
       "id": 5,
@@ -343,7 +347,8 @@
       },
       "faq": "What are common symptoms of neurological disorders?",
       "noOfConsultations": 110,
-      "experience": 13
+      "experience": 13,
+      "avatarUrl": "https://randomuser.me/api/portraits/women/58.jpg"
     },
     {
       "id": 6,
@@ -359,7 +364,8 @@
       },
       "faq": "When should I schedule a gynecological checkup?",
       "noOfConsultations": 95,
-      "experience": 11
+      "experience": 11,
+      "avatarUrl": "https://randomuser.me/api/portraits/men/4.jpg"
     },
     {
       "id": 7,
@@ -375,7 +381,8 @@
       },
       "faq": "How often should I have an eye exam?",
       "noOfConsultations": 105,
-      "experience": 9
+      "experience": 9,
+      "avatarUrl": "https://randomuser.me/api/portraits/men/15.jpg"
     },
     {
       "id": 8,
@@ -391,7 +398,8 @@
       },
       "faq": "How can I maintain good oral hygiene?",
       "noOfConsultations": 80,
-      "experience": 8
+      "experience": 8,
+      "avatarUrl": "https://randomuser.me/api/portraits/women/82.jpg"
     },
     {
       "id": 9,
@@ -407,7 +415,8 @@
       },
       "faq": "What are common signs of mental health disorders?",
       "noOfConsultations": 88,
-      "experience": 7
+      "experience": 7,
+      "avatarUrl": "https://randomuser.me/api/portraits/men/65.jpg"
     },
     {
       "id": 10,
@@ -423,7 +432,8 @@
       },
       "faq": "When should I see an ENT specialist?",
       "noOfConsultations": 92,
-      "experience": 9
+      "experience": 9,
+      "avatarUrl": "https://randomuser.me/api/portraits/men/42.jpg"
     }
   ]
   ,
