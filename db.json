@@ -19,7 +19,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/women/12.jpg",
       "recentDiagnosis": "Common cold",
       "lastVisits": ["2023-02-01", "2023-03-15"],
-      "lastVisitedDoctor": "Dr. Anderson"
+      "lastVisitedDoctor": "Dr. Anderson",
+      "status" : true
     },
     {
       "id": 2,
@@ -41,7 +42,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/76.jpg",
       "recentDiagnosis": "Allergies",
       "lastVisits": ["2023-03-01", "2023-03-20"],
-      "lastVisitedDoctor": "Dr. Patel"
+      "lastVisitedDoctor": "Dr. Patel",
+        "status" : true
     },
     {
       "id": 3,
@@ -63,7 +65,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/37.jpg",
       "recentDiagnosis": "Hypertension",
       "lastVisits": ["2023-03-10", "2023-03-25"],
-      "lastVisitedDoctor": "Dr. Turner"
+      "lastVisitedDoctor": "Dr. Turner",
+        "status" : false
     },
     {
       "id": 4,
@@ -85,7 +88,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/women/20.jpg",
       "recentDiagnosis": "Eczema",
       "lastVisits": ["2023-04-10"],
-      "lastVisitedDoctor": "Dr. Martinez"
+      "lastVisitedDoctor": "Dr. Martinez",
+        "status" : true
     },
     {
       "id": 5,
@@ -107,7 +111,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg",
       "recentDiagnosis": "Back Pain",
       "lastVisits": ["2023-05-01", "2023-05-15"],
-      "lastVisitedDoctor": "Dr. Ramirez"
+      "lastVisitedDoctor": "Dr. Ramirez",
+        "status" : false
     },
     {
       "id": 6,
@@ -129,7 +134,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/49.jpg",
       "recentDiagnosis": "Pregnancy",
       "lastVisits": ["2023-06-10"],
-      "lastVisitedDoctor": "Dr. Lee"
+      "lastVisitedDoctor": "Dr. Lee",
+        "status" : true
     },
     {
       "id": 7,
@@ -151,7 +157,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/60.jpg",
       "recentDiagnosis": "Migraine",
       "lastVisits": ["2023-07-15", "2023-08-01"],
-      "lastVisitedDoctor": "Dr. Garcia"
+      "lastVisitedDoctor": "Dr. Garcia",
+        "status" : true
     },
     {
       "id": 8,
@@ -173,7 +180,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/women/7.jpg",
       "recentDiagnosis": "Cataract",
       "lastVisits": ["2023-08-01"],
-      "lastVisitedDoctor": "Dr. Wright"
+      "lastVisitedDoctor": "Dr. Wright",
+        "status" : false
     },
     {
       "id": 9,
@@ -195,7 +203,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/43.jpg",
       "recentDiagnosis": "Depression",
       "lastVisits": ["2023-09-15", "2023-10-01"],
-      "lastVisitedDoctor": "Dr. Hall"
+      "lastVisitedDoctor": "Dr. Hall",
+        "status" : false
     },
     {
       "id": 10,
@@ -217,7 +226,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/89.jpg",
       "recentDiagnosis": "Cavity",
       "lastVisits": ["2023-10-01"],
-      "lastVisitedDoctor": "Dr. Young"
+      "lastVisitedDoctor": "Dr. Young",
+        "status" : true
     },
     {
       "id": 11,
@@ -239,7 +249,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/70.jpg",
       "recentDiagnosis": "Arthritis",
       "lastVisits": ["2023-11-15", "2023-12-01"],
-      "lastVisitedDoctor": "Dr. Turner"
+      "lastVisitedDoctor": "Dr. Turner",
+        "status" : true
     },
     {
       "id": 12,
@@ -261,7 +272,8 @@
       "avatarUrl": "https://randomuser.me/api/portraits/men/42.jpg",
       "recentDiagnosis": "Thyroid Disorder",
       "lastVisits": ["2023-12-01"],
-      "lastVisitedDoctor": "Dr. Turner"
+      "lastVisitedDoctor": "Dr. Turner",
+        "status" : false
     }] 
   ,
    "doctors": [
