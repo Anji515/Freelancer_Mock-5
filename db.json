@@ -1,7 +1,17 @@
-{ "patients": [
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "token": "shbshavshahbxgvhwbsaujhnjshuihuw5645456dsdhbd"
+    }
+  ],
+  "patients": [
     {
       "id": 1,
       "name": "John Doe",
+      "age": 35,
+      "gender": "Male",
       "contact": "123-456-7890",
       "consultedBy": "Dr. Smith",
       "registrationOn": "2023-01-01",
@@ -20,11 +30,14 @@
       "recentDiagnosis": "Common cold",
       "lastVisits": ["2023-02-01", "2023-03-15"],
       "lastVisitedDoctor": "Dr. Anderson",
-      "status" : true
+      "status": true,
+      "diseases": ["Common Cold", "Fever", "Headache"]
     },
     {
       "id": 2,
       "name": "Jane Doe",
+      "age": 28,
+      "gender": "Female",
       "contact": "987-654-3210",
       "consultedBy": "Dr. Johnson",
       "registrationOn": "2023-01-10",
@@ -43,11 +56,14 @@
       "recentDiagnosis": "Allergies",
       "lastVisits": ["2023-03-01", "2023-03-20"],
       "lastVisitedDoctor": "Dr. Patel",
-        "status" : true
+      "status": true,
+      "diseases": ["Allergies"]
     },
     {
       "id": 3,
       "name": "Michael Smith",
+      "age": 45,
+      "gender": "Male",
       "contact": "555-123-4567",
       "consultedBy": "Dr. Brown",
       "registrationOn": "2023-02-05",
@@ -66,11 +82,14 @@
       "recentDiagnosis": "Hypertension",
       "lastVisits": ["2023-03-10", "2023-03-25"],
       "lastVisitedDoctor": "Dr. Turner",
-        "status" : false
+      "status": false,
+      "diseases": ["Common Cold", "Fever", "Headache"]
     },
     {
       "id": 4,
       "name": "Amanda Johnson",
+      "age": 30,
+      "gender": "Female",
       "contact": "333-555-7890",
       "consultedBy": "Dr. White",
       "registrationOn": "2023-03-12",
@@ -89,11 +108,14 @@
       "recentDiagnosis": "Eczema",
       "lastVisits": ["2023-04-10"],
       "lastVisitedDoctor": "Dr. Martinez",
-        "status" : true
+      "status": true,
+      "diseases": ["Allergies", "Cough"]
     },
     {
       "id": 5,
       "name": "Christopher Davis",
+      "age": 40,
+      "gender": "Male",
       "contact": "777-888-9999",
       "consultedBy": "Dr. Taylor",
       "registrationOn": "2023-04-05",
@@ -112,11 +134,14 @@
       "recentDiagnosis": "Back Pain",
       "lastVisits": ["2023-05-01", "2023-05-15"],
       "lastVisitedDoctor": "Dr. Ramirez",
-        "status" : false
+      "status": false,
+      "diseases": ["Allergies", "Cough"]
     },
     {
       "id": 6,
       "name": "Emily Wilson",
+      "age": 32,
+      "gender": "Female",
       "contact": "111-222-3333",
       "consultedBy": "Dr. Harris",
       "registrationOn": "2023-05-10",
@@ -135,11 +160,14 @@
       "recentDiagnosis": "Pregnancy",
       "lastVisits": ["2023-06-10"],
       "lastVisitedDoctor": "Dr. Lee",
-        "status" : true
+      "status": true,
+      "diseases": ["Fever", "Headache"]
     },
     {
       "id": 7,
       "name": "Daniel Brown",
+      "age": 38,
+      "gender": "Male",
       "contact": "999-444-6666",
       "consultedBy": "Dr. Turner",
       "registrationOn": "2023-06-15",
@@ -158,11 +186,14 @@
       "recentDiagnosis": "Migraine",
       "lastVisits": ["2023-07-15", "2023-08-01"],
       "lastVisitedDoctor": "Dr. Garcia",
-        "status" : true
+      "status": true,
+      "diseases": ["Fever"]
     },
     {
       "id": 8,
       "name": "Olivia Martinez",
+      "age": 27,
+      "gender": "Female",
       "contact": "444-777-8888",
       "consultedBy": "Dr. Miller",
       "registrationOn": "2023-07-05",
@@ -181,11 +212,14 @@
       "recentDiagnosis": "Cataract",
       "lastVisits": ["2023-08-01"],
       "lastVisitedDoctor": "Dr. Wright",
-        "status" : false
+      "status": false,
+      "diseases": ["Thyroid Disorder"]
     },
     {
       "id": 9,
       "name": "Liam Turner",
+      "age": 36,
+      "gender": "Male",
       "contact": "666-555-7777",
       "consultedBy": "Dr. Garcia",
       "registrationOn": "2023-08-10",
@@ -204,11 +238,14 @@
       "recentDiagnosis": "Depression",
       "lastVisits": ["2023-09-15", "2023-10-01"],
       "lastVisitedDoctor": "Dr. Hall",
-        "status" : false
+      "status": false,
+      "diseases": ["Thyroid Disorder"]
     },
     {
       "id": 10,
       "name": "Sophia White",
+      "age": 29,
+      "gender": "Female",
       "contact": "222-333-4444",
       "consultedBy": "Dr. Turner",
       "registrationOn": "2023-09-05",
@@ -227,11 +264,14 @@
       "recentDiagnosis": "Cavity",
       "lastVisits": ["2023-10-01"],
       "lastVisitedDoctor": "Dr. Young",
-        "status" : true
+      "status": true,
+      "diseases": ["Fever", "Headache"]
     },
     {
       "id": 11,
       "name": "Mia Taylor",
+      "age": 42,
+      "gender": "Female",
       "contact": "888-222-1111",
       "consultedBy": "Dr. Miller",
       "registrationOn": "2023-10-10",
@@ -250,11 +290,14 @@
       "recentDiagnosis": "Arthritis",
       "lastVisits": ["2023-11-15", "2023-12-01"],
       "lastVisitedDoctor": "Dr. Turner",
-        "status" : true
+      "status": true,
+      "diseases": ["Thyroid Disorder"]
     },
     {
       "id": 12,
       "name": "Ethan Ramirez",
+      "age": 31,
+      "gender": "Male",
       "contact": "111-888-9999",
       "consultedBy": "Dr. Harris",
       "registrationOn": "2023-11-05",
@@ -273,10 +316,44 @@
       "recentDiagnosis": "Thyroid Disorder",
       "lastVisits": ["2023-12-01"],
       "lastVisitedDoctor": "Dr. Turner",
-        "status" : false
-    }] 
-  ,
-   "doctors": [
+      "status": false,
+      "diseases": ["Fever"]
+    },
+    {
+      "consultationId": "12",
+      "name": "Sunny",
+      "age": 25,
+      "gender": "Male",
+      "contact": "8466122344",
+      "emergencyNo": "121345452",
+      "relation": "Brother",
+      "address": "Vill",
+      "village": "Hyd",
+      "district": "Hyd",
+      "state": "TS",
+      "motherTongue": "Tel",
+      "occupation": "NA",
+      "patientAvatar": "",
+      "id": 13
+    },
+    {
+      "consultationId": "",
+      "patientName": "",
+      "gender": "",
+      "contactNo": "",
+      "emergencyNo": "",
+      "relation": "",
+      "address": "",
+      "village": "",
+      "district": "",
+      "state": "",
+      "motherTongue": "",
+      "occupation": "",
+      "patientAvatar": "",
+      "id": 14
+    }
+  ],
+  "doctors": [
     {
       "id": 1,
       "name": "Dr. John Smith",
@@ -447,36 +524,520 @@
       "experience": 9,
       "avatarUrl": "https://randomuser.me/api/portraits/men/42.jpg"
     }
-  ]
-  ,
-"users": [       {
-"firstName": "anji",
-"lastName": "k",
-"email": "an@gmail.com",
-"password": "123456",
-"id": 1
-},
-{
-"firstName": "anji",
-"lastName": "k",
-"email": "anji@gmail.com",
-"password": "123456",
-"id": 2
-},
-{
-"firstName": "Admin",
-"lastName": "Admin",
-"email": "admin@gmail.com",
-"password": "admin",
-"id": 3
-},
-{
-"firstName": "anji",
-"lastName": "k",
-"email": "and@gmail.com",
-"password": "123456",
-"id": 4
+  ],
+  "reports": [
+    {
+      "id": 123,
+      "reportName": "Annual Checkup",
+      "description": "Comprehensive health assessment for yearly checkup.",
+      "updatedBy": "Patient Navigator - Emma Johnson",
+      "updatedOn": "03/02/2023"
+    },
+    {
+      "id": 124,
+      "reportName": "Cardiac Evaluation",
+      "description": "Evaluation of cardiac health including ECG and stress test.",
+      "updatedBy": "Patient Navigator - Noah Davis",
+      "updatedOn": "03/03/2023"
+    },
+    {
+      "id": 125,
+      "reportName": "Prescription Refill",
+      "description": "Refill prescription for ongoing medication.",
+      "updatedBy": "Patient Navigator - Olivia Smith",
+      "updatedOn": "03/04/2023"
+    },
+    {
+      "id": 126,
+      "reportName": "Lab Test Results",
+      "description": "Analysis of recent lab tests and diagnostics.",
+      "updatedBy": "Patient Navigator - Liam Johnson",
+      "updatedOn": "03/05/2023"
+    },
+    {
+      "id": 127,
+      "reportName": "Emergency Room Visit",
+      "description": "Details of recent emergency room visit and treatment.",
+      "updatedBy": "Patient Navigator - Ava Davis",
+      "updatedOn": "03/06/2023"
+    },
+    {
+      "id": 128,
+      "reportName": "Follow-up Consultation",
+      "description": "Follow-up consultation with primary care physician.",
+      "updatedBy": "Patient Navigator - Lucas Smith",
+      "updatedOn": "03/07/2023"
+    }
+  ],
+  "patient": [
+      { 
+        "id": 1,
+        "patientInfo": {
+          "consultation_ID": 101,
+          "motherTongue": "ENGLISH",
+          "emergencyNumber": "1234567890",
+          "dob": "1990-01-01",
+          "age": 45,
+          "state": "State",
+          "city": "City",
+          "pincode": "12345",
+          "user": {
+            "id": 2,
+            "name": "Doe",
+            "contactNumber": "9932873952",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$q2B3mCoAM59O0cKjo6vr2.R0obFgciol5Z1Z377q1Wq1hpxms8lT6",
+            "gender": "MALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 1,
+            "timestamp": "2024-01-18",
+            "height": 175.0,
+            "weight": 70.0,
+            "pulse": 80,
+            "spo2": 98,
+            "sugar": 120.0,
+            "bmi": 25.0,
+            "temperature": 98.6,
+            "bloodPressure": 80,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2024-01-22",
+          "consultedBy": "Dr. Garcia",
+          "disease": "Hypertension",
+          "consType": "Followup",
+          "followUps": 2
+        }
+      },
+      {
+        "id": 2,
+        "patientInfo": {
+          "consultation_ID": 102,
+          "motherTongue": "ENGLISH",
+          "emergencyNumber": "1234567890",
+          "dob": "1990-01-01",
+          "age": 40,
+          "state": "State",
+          "city": "City",
+          "pincode": "12345",
+          "user": {
+            "id": 152,
+            "name": "Noe",
+            "contactNumber": "8976532145",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$HtyFT85MH98jNsisDXi0E.pdn9.Wp2bsJPxVyBOqzE8C2peEbRosS",
+            "gender": "MALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 2,
+            "timestamp": "2024-01-19",
+            "height": 175.0,
+            "weight": 70.0,
+            "pulse": 80,
+            "spo2": 98,
+            "sugar": 120.0,
+            "bmi": 25.0,
+            "temperature": 98.6,
+            "bloodPressure": 80,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2024-01-23",
+          "consultedBy": "Dr. Turner",
+          "disease": "Diabetes",
+          "consType": "Followup",
+          "followUps": 1
+        }
+      },
+      {
+        "id": 3,
+        "patientInfo": {
+          "consultation_ID": 103,
+          "motherTongue": "ENGLISH",
+          "emergencyNumber": "9876543210",
+          "dob": "1990-01-01",
+          "age": 34,
+          "state": "California",
+          "city": "Los Angeles",
+          "pincode": "90001",
+          "user": {
+            "id": 202,
+            "name": "John Doe",
+            "contactNumber": "9098765432",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$UAcDMT/YxH/rfpRIOaCQt.8TRHdRnloXSQgp1WC5eiGk4NSwknaIq",
+            "gender": "MALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 3,
+            "timestamp": "2024-01-19",
+            "height": 175.5,
+            "weight": 70.5,
+            "pulse": 75,
+            "spo2": 98,
+            "sugar": 120.5,
+            "bmi": 24.5,
+            "temperature": 98.6,
+            "bloodPressure": 120,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2024-01-25",
+          "consultedBy": "Dr. Miller",
+          "disease": "Asthma",
+          "consType": "Followup",
+          "followUps": 3
+        }
+      },
+      {
+        "id": 4,
+        "patientInfo": {
+          "consultation_ID": 104,
+          "motherTongue": "ENGLISH",
+          "emergencyNumber": "9876543210",
+          "dob": "1990-01-01",
+          "age": 34,
+          "state": "California",
+          "city": "Los Angeles",
+          "pincode": "90001",
+          "user": {
+            "id": 252,
+            "name": "Biku",
+            "contactNumber": "2345167890",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$nz1NuupuMhewUVrWimA0aeK4NuiMcLazNM2/MHeGH6F.snCxcVv5O",
+            "gender": "MALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 4,
+            "timestamp": "2024-01-19",
+            "height": 175.5,
+            "weight": 70.2,
+            "pulse": 75,
+            "spo2": 98,
+            "sugar": 120.5,
+            "bmi": 22.5,
+            "temperature": 98.6,
+            "bloodPressure": 120,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2024-01-27",
+          "consultedBy": "Dr. White",
+          "disease": "Chronic Pain",
+          "consType": "Followup",
+          "followUps": 1
+        }
+      },
+      {
+        "id": 5,
+        "patientInfo": {
+          "consultation_ID": 105,
+          "motherTongue": "ENGLISH",
+          "emergencyNumber": "9876543210",
+          "dob": "1990-01-01",
+          "age": 34,
+          "state": "California",
+          "city": "Los Angeles",
+          "pincode": "90001",
+          "user": {
+            "id": 253,
+            "name": "Biku",
+            "contactNumber": "9876312245",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$9vsYBso2Rb70HNqk49MRDeSuBy.J/9qce.Lg3qRh3/g.dxn8x4gde",
+            "gender": "MALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 5,
+            "timestamp": "2024-01-19",
+            "height": 175.5,
+            "weight": 70.2,
+            "pulse": 75,
+            "spo2": 98,
+            "sugar": 120.5,
+            "bmi": 22.5,
+            "temperature": 98.6,
+            "bloodPressure": 120,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2024-01-29",
+          "consultedBy": "Dr. Turner",
+          "disease": "Migraine",
+          "consType": "Followup",
+          "followUps": 4
+        }
+      },
+      {
+        "id": 6,
+        "patientInfo": {
+          "consultation_ID": 106,
+          "motherTongue": "ENGLISH",
+          "emergencyNumber": "9876543210",
+          "dob": "1990-01-01",
+          "age": 29,
+          "state": "California",
+          "city": "San Francisco",
+          "pincode": "94105",
+          "user": {
+            "id": 254,
+            "name": "Alice",
+            "contactNumber": "8765432109",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$BlgAG3cpvf.0DP.LHGBccuhhHe7OjM6LQbc1Pv2tCBOMWqxCZqYi6",
+            "gender": "FEMALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 6,
+            "timestamp": "2024-01-20",
+            "height": 168.0,
+            "weight": 60.0,
+            "pulse": 70,
+            "spo2": 99,
+            "sugar": 110.0,
+            "bmi": 22.0,
+            "temperature": 98.5,
+            "bloodPressure": 110,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2024-01-30",
+          "consultedBy": "Doctor Garcia",
+          "disease": "Anxiety",
+          "consType": "First Time",
+          "followUps": 2
+        }
+      },
+      {
+        "id": 7,
+        "patientInfo": {
+          "consultation_ID": 107,
+          "motherTongue": "SPANISH",
+          "emergencyNumber": "7894561230",
+          "dob": "1985-03-15",
+          "age": 30,
+          "state": "Texas",
+          "city": "Houston",
+          "pincode": "77001",
+          "user": {
+            "id": 255,
+            "name": "Maria",
+            "contactNumber": "7654321098",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$JcKHhdk6L5MzAP.Xbkfi/uNt/s4C0GJQW8y0hQp9tSAAcxZ3q0LSm",
+            "gender": "FEMALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 7,
+            "timestamp": "2024-01-20",
+            "height": 160.0,
+            "weight": 65.0,
+            "pulse": 75,
+            "spo2": 97,
+            "sugar": 130.0,
+            "bmi": 25.5,
+            "temperature": 98.8,
+            "bloodPressure": 120,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2024-02-01",
+          "consultedBy": "Doctor Martinez",
+          "disease": "Depression",
+          "consType": "First Time",
+          "followUps": 1
+        }
+      },
+      {
+        "id": 8,
+        "patientInfo": {
+          "consultation_ID": 108,
+          "motherTongue": "FRENCH",
+          "emergencyNumber": "6547890123",
+          "dob": "1980-12-10",
+          "age": 38,
+          "state": "New York",
+          "city": "New York City",
+          "pincode": "10001",
+          "user": {
+            "id": 256,
+            "name": "Pierre",
+            "contactNumber": "6543210987",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$6fZ4ntDg7eiH9h0Q6ry/TOvv2DXH8G09P5s1fJ8slN3A2S9UqSGda",
+            "gender": "MALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 8,
+            "timestamp": "2024-01-21",
+            "height": 180.0,
+            "weight": 80.0,
+            "pulse": 85,
+            "spo2": 96,
+            "sugar": 140.0,
+            "bmi": 24.7,
+            "temperature": 98.7,
+            "bloodPressure": 130,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2023-12-31",
+          "consultedBy": "Dr. Taylor",
+          "disease": "Anxiety",
+          "consType": "Followup",
+          "followUps": 2
+        }    
+      },
+      {
+        "id": 9,
+        "patientInfo": {
+          "consultation_ID": null,
+          "motherTongue": "GERMAN",
+          "emergencyNumber": "9870123456",
+          "dob": "1982-06-25",
+          "age": 32,
+          "state": "Florida",
+          "city": "Miami",
+          "pincode": "33101",
+          "user": {
+            "id": 257,
+            "name": "Hans",
+            "contactNumber": "8765432109",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$wYzKgjNfeZPOMFbR2tZ8LeQzZ7GB6aRlNoz0mNsmHMZM5wPhFW5tq",
+            "gender": "MALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [{
+          "id": 9,
+          "timestamp": "2024-01-21",
+          "height": 180.0,
+          "weight": 80.0,
+          "pulse": 85,
+          "spo2": 96,
+          "sugar": 140.0,
+          "bmi": 24.7,
+          "temperature": 98.7,
+          "bloodPressure": 130,
+          "bloodGroup": null
+        }],
+        "consultationInfo": {
+          "registrationOn": "2023-12-20",
+          "consultedBy": "Dr. Brown",
+          "disease": "Headache",
+          "consType": "First Consultation",
+          "followUps": 2
+        }
+      },
+      {
+        "id": 10,
+        "patientInfo": {
+          "consultation_ID": null,
+          "motherTongue": "ITALIAN",
+          "emergencyNumber": "3216549870",
+          "dob": "1988-09-18",
+          "age": 33,
+          "state": "Illinois",
+          "city": "Chicago",
+          "pincode": "60601",
+          "user": {
+            "id": 258,
+            "name": "Isabella",
+            "contactNumber": "7890123456",
+            "profilePhoto": null,
+            "is_active": null,
+            "role": "ROLE_PATIENT",
+            "email": null,
+            "password": "$2a$10$hYgih1YU7.LxhjGq37kiTODGo.SyJi1qNCOY8o8Z31G4mwx.9iBJy",
+            "gender": "FEMALE",
+            "center": null
+          }
+        },
+        "vitalsInfo": [
+          {
+            "id": 10,
+            "timestamp": "2024-01-21",
+            "height": 170.0,
+            "weight": 68.0,
+            "pulse": 78,
+            "spo2": 98,
+            "sugar": 125.0,
+            "bmi": 23.5,
+            "temperature": 98.4,
+            "bloodPressure": 115,
+            "bloodGroup": null
+          }
+        ],
+        "consultationInfo": {
+          "registrationOn": "2023-11-30",
+          "consultedBy": "Dr. Smith",
+          "disease": "Fever",
+          "consType": "Followup",
+          "followUps": 2
+        }
+      }
+    ]
 }
-        ]
-  }
   
