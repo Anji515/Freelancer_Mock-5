@@ -318,39 +318,6 @@
       "lastVisitedDoctor": "Dr. Turner",
       "status": false,
       "diseases": ["Fever"]
-    },
-    {
-      "consultationId": "12",
-      "name": "Sunny",
-      "age": 25,
-      "gender": "Male",
-      "contact": "8466122344",
-      "emergencyNo": "121345452",
-      "relation": "Brother",
-      "address": "Vill",
-      "village": "Hyd",
-      "district": "Hyd",
-      "state": "TS",
-      "motherTongue": "Tel",
-      "occupation": "NA",
-      "patientAvatar": "",
-      "id": 13
-    },
-    {
-      "consultationId": "",
-      "patientName": "",
-      "gender": "",
-      "contactNo": "",
-      "emergencyNo": "",
-      "relation": "",
-      "address": "",
-      "village": "",
-      "district": "",
-      "state": "",
-      "motherTongue": "",
-      "occupation": "",
-      "patientAvatar": "",
-      "id": 14
     }
   ],
   "doctors": [
